@@ -4,12 +4,16 @@ Here's an assortment of different simple programs to serve as a cookbook for c s
 
 ## helloworld
 
-A good starting program for any language.
+A good start for any language.
 
 ## greeter
 
-A program that receives an argument either by command line or stdin (for piping in the unix shell).
+Receives an argument either by command line or stdin (for piping in the unix shell).
 
-### structs
+## structs
 
-A program that demonstrates structs, enums, fake constructors, and a function accepting a struct as its first argument to behave as a fake method.
+Demonstrates structs, enums, fake constructors, and a function accepting a struct as its first argument to behave as a fake method.
+
+## threads
+
+Shows off creating threads and waiting for them to finish.
