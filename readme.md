@@ -17,3 +17,7 @@ Demonstrates structs, enums, fake constructors, and a function accepting a struc
 ## threads
 
 Shows off creating threads and waiting for them to finish.
+
+## ncurses
+
+Programs using ncurses to provide CLI for programs
