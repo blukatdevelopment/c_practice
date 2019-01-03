@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int main()
+{
     char string_array[] = "hello, world!"; // You can't modify constant char arrays
     char * string = &string_array[0];
 
