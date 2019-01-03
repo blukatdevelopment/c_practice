@@ -17,6 +17,7 @@ void execute_command();
 static char buffer[BUFFERSIZE];
 enum Commands { Quit = 0, Greet = 1, Help = 2};
 static enum Commands command;
+
 int main(void)
 { 
     setup();
@@ -49,7 +50,8 @@ void read_command()
     {
         command = Quit;
     }
-    else if(strcmp("help", command_string) == 0){
+    else if(strcmp("help", command_string) == 0)
+    {
         command = Help;
     }
     else{
